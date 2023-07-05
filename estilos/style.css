@@ -29,6 +29,8 @@ section#page1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+    
     height: auto;
     width: 311px;
     border-radius: 10px;
@@ -69,8 +71,15 @@ img {
     top: 10px;
 }
 img.capa{
-    display: block;
+   /* display: inline-flex;
     width: 311px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;*/
+    width: 100%; /* Ajuste a largura para ocupar toda a largura do container */
+    max-width: 311px; /* Defina uma largura máxima */
+    height: auto; /* Deixe a altura se ajustar automaticamente */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 10px;
