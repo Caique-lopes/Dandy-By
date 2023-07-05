@@ -19,7 +19,7 @@ body{
 main{
     
     width: 400px;
-    margin: auto;
+    /*margin: auto;*/
     margin-top: 20px;
     border-radius: 10px;
     padding: 10px;
