@@ -13,17 +13,25 @@
       height: auto;
       width: 100%;
       border-radius: 0;
+      padding: 20px;
+      /*display: flex;*/
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
     img.capa {
       width: 100%;
       height: auto;
       object-fit: contain;
     }
-    div.layout {
-      top: 0;
+    section#redes-sociais {
+      margin-top: 20px;
+    }
+    ul {
+      margin-top: 10px;
     }
   }
-  
   /* Media Query para tablets */
   @media (min-width: 481px) and (max-width: 768px) {
     main {
