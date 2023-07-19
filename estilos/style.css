@@ -1,0 +1,134 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background: black url(../imagem/backgroud.png);
+    background-size: 300% 400%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    max-width: 400px;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section#page1{
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+}
+
+section#redes-sociais{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+}
+
+img.social:hover{
+    border: 2px solid rgba(255, 255, 255, 0.39);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.685);
+    transition: transform .5s, border 1s;
+}
+
+img{
+    /*max-width: 100%;*/
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+img.capa {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+div.layout{
+    position: relative;
+    top: 20%;
+}
+
+div.musicas{
+    margin: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    justify-content: space-evenly;
+}
+
+div.imagem{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+div.imagem img {
+    width: 200px; /* Ajuste o tamanho desejado */
+    /*height: 20px;*/ /* Ajuste o tamanho desejado */
+    object-fit: contain;
+  }
+a.link{
+    display: block;
+    padding: 2px 0;
+    text-decoration: none;
+}
+
+button.botao{
+    width: 55px;
+    height: 50px;
+    margin: 6px;
+    display: inline-flex;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+div.musica:hover{
+    background-color: rgba(114, 113, 113, 0.5);
+}
+
+h3{
+    text-align: center;
+}
+
+ul.lista-musicas{
+    list-style: none;
+    padding: 0;
+}
+
+ul.lista-musicas li{
+    padding-bottom: 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+a.link:hover{
+    border: 2px solid rgba(255, 255, 255, 0.39);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.685);
+    transition: transform .5s, border 1s;
+}
